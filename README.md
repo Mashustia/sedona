@@ -1,2 +1,2 @@
 # sedona
-Вертка макета Sedona HTML Academy.
+Верcтка макета Sedona HTML Academy.
