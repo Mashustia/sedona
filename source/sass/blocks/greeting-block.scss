@@ -1,10 +1,9 @@
 .greeting-block {
-  width: 100%;
+  width: 768px;
   height: 512px;
   background-color: #406581;
-  background-image: url("../../img/greeting-image-full.jpg");
+  background-image: url("../../img/greeting-block-768.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center top;
   position: relative;
 
@@ -15,10 +14,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url("../../img/greeting-image-border-bottom-large.png");
+    background-image: url("../../img/greeting-image-border-768.png");
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 100% 100%;
   }
 }
 

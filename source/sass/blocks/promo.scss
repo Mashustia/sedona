@@ -1,0 +1,68 @@
+.promo__list {
+  @include for-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promo__item {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+  padding-top: 161px;
+  padding-right: 45px;
+  padding-bottom: 54px;
+  padding-left: 45px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  &--house::after {
+    width: 75px;
+    height: 72px;
+    background-image: url("./../../img/promo-image-1.svg");
+    top: 60px;
+    margin-left: -37px;
+  }
+
+  &--burger::after {
+    width: 74px;
+    height: 70px;
+    background-image: url("./../../img/promo-image-2.svg");
+    top: 61px;
+    margin-left: -37px;
+  }
+
+  &--present::after {
+    width: 64px;
+    height: 76px;
+    background-image: url("./../../img/promo-image-3.svg");
+    top: 56px;
+    margin-left: -33px;
+  }
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.promo__description {
+  padding: 0;
+  padding-bottom: 7px;
+  margin: 0;
+}
+
+
