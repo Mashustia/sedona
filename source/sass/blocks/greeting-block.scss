@@ -1,0 +1,35 @@
+.greeting-block {
+  width: 100%;
+  height: 512px;
+  background-color: #406581;
+  background-image: url("../../img/greeting-image-full.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 57px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../../img/greeting-image-border-bottom-large.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+  }
+}
+
+.greeting-block_image {
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  margin-left: -229px;
+  width: 458px;
+  height: 352px;
+  display: block;
+}
+
+

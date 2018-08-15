@@ -1,0 +1,38 @@
+.main-nav__list  {
+  display: flex;
+  flex-wrap: wrap;
+  @include for-list;
+}
+
+.main-nav__item {
+  width: 23%;
+
+  &:nth-child(n) {
+    margin: 0;
+  }
+  &:nth-child(1),
+  &:nth-child(2) {
+    text-align: left;
+  }
+  &:nth-child(3),
+  &:nth-child(4) {
+    text-align: right;
+  }
+
+  &:nth-child(2) {
+    margin-right: auto;
+  }
+}
+
+.main-nav__item a {
+  font-size: 14px;
+  line-height: 21px;
+  color: $main-text-color;
+  background-color: $main-background-color;
+  width: 100%;
+  display: block;
+  padding: 0;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  font-weight: 700;
+}

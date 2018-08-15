@@ -1,0 +1,16 @@
+// global
+@import "global/normalize.scss";
+@import "global/variables.scss";
+@import "global/mixin.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+
+// index.html
+@import "blocks/page-header.scss";
+@import "blocks/logo.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/greeting-block.scss";
+@import "blocks/advantages.scss";
+
+
+
