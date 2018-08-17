@@ -1,0 +1,10 @@
+.modal {
+  z-index: 100;
+  display: none;
+  background-color: $main-background-color;
+
+  &--show {
+    display: block;
+  }
+}
+

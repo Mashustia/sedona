@@ -1,0 +1,33 @@
+.page-footer {
+  width: 768px;
+  padding-top: 36px;
+  padding-left: 60px;
+  padding-bottom: 36px;
+  padding-right: 31px;
+  display: flex;
+  align-items: flex-start;
+
+  &--transparent {
+    background-color: #ffffff;
+    opacity: 0.902;
+    margin-top: -120px;
+    z-index: 3;
+  }
+}
+
+.page-footer__hashtag {
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.page-footer__social {
+  margin-left: 109px;
+  margin-right: 85px;
+}
+
+.page-footer__copyright {
+  margin-top: 3px;
+  margin-right: 0;
+  margin-left: auto;
+}
