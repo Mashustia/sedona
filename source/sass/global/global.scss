@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  min-width: 768px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
 
@@ -25,12 +25,7 @@ body {
   color: $main-text-color;
   background-color: $main-background-color;
   text-transform: uppercase;
-
-}
-
-.container {
-  width: 768px;
-  padding: 0;
+  background-color: #f2f2f2
 }
 
 .visually-hidden {

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="page-header container">
-      <a class="page-header__logo logo" href="#">
+      <a class="page-header__logo logo">
         <img src="img/logo.png" width="138px" height="70px" alt="Седона - городок в Аризоне">
       </a>
       <nav class="page-header__navigation main-nav">
@@ -23,7 +23,7 @@
             <a href="#">Карта штата</a>
           </li>
           <li class="main-nav__item">
-            <a href="#">Гостинницы</a>
+            <a href="catalog.html">Гостинницы</a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
               <span class="advantages__number">— №1 —</span>
               <p class="advantages__description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
-            <img class="advantages__image" src="img/advantages-image-1-768.jpg" width="512px" height="256px" alt="Изображение центра города">
+            <img class="advantages__image" src="img/advantages-image-1.jpg" width="512px" height="256px" alt="Изображение центра города">
           </div>
 
           <ul class="promo__list">
@@ -62,7 +62,7 @@
             </li>
             <li class="promo__item promo__item--burger">
               <h3 class="promo__title">Еда</h3>
-              <p class="promo__description">Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
+              <p class="promo__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="promo__item promo__item--present">
               <h3 class="promo__title">Сувениры</h3>
@@ -76,22 +76,22 @@
               <span class="advantages__number">— №2 —</span>
               <p class="advantages__description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             </div>
-            <img class="advantages__image advantages__image--first-place" src="img/advantages-image-2-768.jpg" width="512px" height="256px" alt="Изображение Моста Дьявола">
+            <img class="advantages__image advantages__image--first-place" src="img/advantages-image-2.jpg" width="512px" height="256px" alt="Изображение Моста Дьявола">
           </div>
           <div class="advantages__item advantages__item--gray">
             <h3 class="advantages__title">Небольшая площадь</h3>
             <span class="advantages__number">— №3 —</span>
-            <p class="advantages__description">Все достопримечательности находятся очень близко</p>
+            <p class="advantages__description advantages__description--narrow">Все достопримечательности находятся очень близко</p>
           </div>
           <div class="advantages__item advantages__item--gray">
             <h3 class="advantages__title">Красивая дорога</h3>
             <span class="advantages__number">— №4 —</span>
-            <p class="advantages__description">Ехать в Седону<br> из Лас-Вегаса совсем<br> не скучно!</p>
+            <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
           </div>
           <div class="advantages__item advantages__item--gray">
-            <h3 class="advantages__title">Мало туристов</h3>
+            <h3 class="advantages__title">Мало<br> туристов</h3>
             <span class="advantages__number">— №5 —</span>
-            <p class="advantages__description">Большинство едет в Гранд каньон и<br> толпится там</p>
+            <p class="advantages__description advantages__description--narrow">Большинство едет в Гранд каньон и толпится там</p>
           </div>
         </div>
       </section>
@@ -106,8 +106,10 @@
       <section class="map">
         <h2 class="visually-hidden">Карта проезда</h2>
         <div class="map_wrapper">
-          <img class="map-image" width="768px" height="593px" src="img/map.png" alt="Карта Седоны">
+          <img class="map-image" width="1200px" height="593px" src="img/map.jpg" alt="Карта Седоны">
         </div class="map_wrapper">
+        <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d550541.9324518224!2d-111.86598069416405!3d35.040661871618745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1534549050108"
+          width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
     </main>
 
@@ -138,7 +140,7 @@
 
 
 
-    <section class="modal-search modal modal--show">
+    <section class="modal-search modal">
       <h2 class="visually-hidden">Поиск гостинницы в Седоне</h2>
       <form class="modal-search__form" action="https://echo.htmlacademy.ru" method="post">
         <label class="">

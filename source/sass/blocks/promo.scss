@@ -5,16 +5,16 @@
 }
 
 .promo__item {
-  width: 256px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
   justify-content: flex-start;
   padding-top: 161px;
-  padding-right: 45px;
-  padding-bottom: 54px;
-  padding-left: 45px;
+  padding-right: 57px;
+  padding-bottom: 75px;
+  padding-left: 57px;
   position: relative;
 
   &::after {

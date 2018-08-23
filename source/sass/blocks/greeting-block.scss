@@ -1,11 +1,13 @@
 .greeting-block {
-  width: 768px;
-  height: 512px;
+  width: 1200px;
+  height: 508px;
   background-color: #406581;
-  background-image: url("../../img/greeting-block-768.jpg");
+  background-image: url("../../img/greeting-background-image.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: 50% 28%;
+  background-size: cover;
   position: relative;
+
 
   &::after {
     content: "";
@@ -14,7 +16,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url("../../img/greeting-image-border-768.png");
+    background-image: url("../../img/greeting-image-border.png");
     background-repeat: no-repeat;
     background-position: center bottom;
   }

@@ -1,0 +1,44 @@
+.hotel-filter {
+  width: 1200px;
+  background-color: #5f5656;
+  background-image: url("../../img/hotel-filter.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 27px;
+  padding-right: 72px;
+  padding-bottom: 31px;
+  padding-left: 72px;
+  color: #ffffff;
+}
+
+.hotel-filter__form {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hotel-filter__options {
+  margin: 0;
+  margin-right: 85px;
+}
+
+.hotel-filter__price-wrapper {
+  margin: 0;
+  margin-left: auto;
+}
+
+.hotel-filter__button {
+  margin: 0 auto;
+  font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 6px 35px;
+
+  &:hover,
+  &:active {
+    color: $main-text-color;
+    background-color: $main-background-color;
+  }
+}
+

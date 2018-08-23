@@ -1,0 +1,28 @@
+.sorting {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: baseline;
+}
+
+.sorting__search-result {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-right: 48px;
+}
+
+.sorting__text {
+  margin-right: 40px;
+}
+
+.sorting__list {
+  @include for-list;
+  display: flex;
+
+  &--by-category {
+    min-width: 240px;
+    justify-content: space-between;
+  }
+}

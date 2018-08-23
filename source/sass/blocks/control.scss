@@ -1,0 +1,38 @@
+.control {
+  border: 2px solid #ffffff;
+  border-radius: 1px;
+  width: 318px;
+  position: relative;
+  height: 36px;
+
+  &::after {
+    position: absolute;
+    content: "";
+
+    height: 22px;
+    width: 2px;
+
+    top: 50%;
+    left: 50%;
+    margin-left: -1px;
+    margin-top: -11px;
+    background-color: #ffffff;
+  }
+}
+
+.control__value {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  line-height: 32px;
+  padding-left: 64px;
+  width: 144px;
+}
+
+.control__input {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  color: inherit;
+  font: inherit;
+}

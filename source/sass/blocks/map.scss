@@ -1,11 +1,18 @@
 .map {
-  width: 768px;
+  width: 1200px;
   height: 593px;
   position: relative;
 }
 
 .map-image {
-  width: 768px;
+  width: 1200px;
   height: 593px;
   background-color: #cbdcaa;
+}
+
+.map__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
