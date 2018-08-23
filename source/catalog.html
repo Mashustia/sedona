@@ -8,7 +8,7 @@
   </head>
   <body class="inner-page">
     <header class="page-header container">
-      <a class="page-header__logo logo" href="index.html">
+      <a class="page-header__logo logo" href="index.html" tabindex="1">
         <img src="img/logo.png" width="138px" height="70px" alt="Седона - городок в Аризоне">
       </a>
       <nav class="page-header__navigation main-nav">
@@ -119,91 +119,88 @@
         <div class="catalog_sorting sorting">
           <span class="sorting__search-result">Найдено: 3</span>
           <span class="sorting__text">Сортировка:</span>
-          <ul class="sorting__list sorting__list--by-category">
-            <li class="sorting__item sorting__item--active">По цене</li>
-            <li class="sorting__item">По типу</li>
-            <li class="sorting__item">По рейтингу</li>
-          </ul>
-          <ul class="sorting__list sorting__list--increase-decrease">
-            <li class="sorting__item">
-              <a class="decrease-link" href="#"><span class="visually-hidden">По убыванию</span></a>
+          <ul class="sorting__by-category by-category">
+            <li class="by-category__item by-category__item--active">
+              <a class="by-category_link" href="#">По цене</a>
             </li>
-            <li class="sorting__item sorting__item--active">
-              <a class="increase-link" href="#"><span class="visually-hidden">По возрастанию</span></a>
+            <li class="by-category__item">
+              <a class="by-category_link" href="#">По типу</a>
+            </li>
+            <li class="by-category__item">
+              <a class="by-category_link" href="#">По рейтингу</a>
+            </li>
+          </ul>
+          <ul class="sorting__increase-decrease increase-decrease">
+            <li class="increase-decrease__item">
+              <a class="increase-decrease__link increase-decrease__link--decrease" href="#"><span class="visually-hidden">По убыванию</span></a>
+            </li>
+            <li class="increase-decrease__item increase-decrease__item--active">
+              <a class="increase-decrease__link increase-decrease__link--increase" href="#"><span class="visually-hidden">По возрастанию</span></a>
             </li>
           </ul>
         </div>
 
         <ul class="catalog__list">
           <li class="catalog__item hotel">
-            <img class="hotel__image" src="#" alt="Изображение отеля Amara Resort & Spa">
+            <img class="hotel__image" width="135px" height="90px" src="img/hotel-1.jpg" alt="Изображение отеля Amara Resort & Spa">
             <div class="hotel__information">
               <h3 class="hotel__title">Amara Resort & Spa</h3>
-              <table class="hotel__table">
-                <tr>
-                  <td class="hotel__value">Гостиница</td>
-                  <td class="hotel__field">ОТ 4000 Р.</td>
-                </tr>
-              </table>
-              <a class="hotel__more button" href="#">Подробнее</a>
-              <a class="hotel__buy button" href="#">Забронировать</a>
-            </div>
-            <div class="hotel__rating">
-              <div class="hotel__rating rating-in-stars">
-                <span class="visually-hidden">4 звезды</span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
+              <div class="hotel__table">
+                <ul class="hotel__list">
+                  <li class="hotel__value">Гостиница</li>
+                  <li class="hotel__field">ОТ 4000 Р.</li>
+                </ul>
               </div>
-              <a class="hotel__rating rating-in-numbers" href="#">Рейтинг: 8,5</a>
+              <a class="hotel__button button" href="#">Подробнее</a>
+              <a class="hotel__button hotel__button--buy button" href="#">Забронировать</a>
+            </div>
+            <div class="hotel__rating rating">
+              <div class="rating__in-stars rating__in-stars--four">
+                <span class="visually-hidden">4 звезды</span>
+              </div>
+              <a class="rating__in-numbers" href="#">Рейтинг: 8,5</a>
             </div>
           </li>
 
           <li class="catalog__item hotel">
-            <img class="hotel__image" src="#" alt="Изображение отеля Desert Quail Inn">
+            <img class="hotel__image" width="135px" height="90px" src="img/hotel-2.jpg" alt="Изображение отеля Desert Quail Inn">
             <div class="hotel__information">
               <h3 class="hotel__title">Desert Quail Inn</h3>
-              <table class="hotel__table">
-                <tr>
-                  <td class="hotel__value">Мотель</td>
-                  <td class="hotel__field">ОТ 3000 Р.</td>
-                </tr>
-              </table>
-              <a class="hotel__more button" href="#">Подробнее</a>
-              <a class="hotel__buy button" href="#">Забронировать</a>
-            </div>
-            <div class="hotel__rating">
-              <div class="hotel__rating rating-in-stars">
-                <span class="visually-hidden">3 звезды</span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
+              <div class="hotel__table">
+                <ul class="hotel__list">
+                  <li class="hotel__value">Мотель</li>
+                  <li class="hotel__field">ОТ 3000 Р.</li>
+                </ul>
               </div>
-              <a class="hotel__rating rating-in-numbers" href="#">Рейтинг: 8,9</a>
+              <a class="hotel__button button" href="#">Подробнее</a>
+              <a class="hotel__button hotel__button--buy button" href="#">Забронировать</a>
+            </div>
+            <div class="hotel__rating rating">
+              <div class="rating__in-stars rating__in-stars--three">
+                <span class="visually-hidden">3 звезды</span>
+              </div>
+              <a class="rating__in-numbers" href="#">Рейтинг: 8,9</a>
             </div>
           </li>
 
           <li class="catalog__item hotel">
-            <img class="hotel__image" src="#" alt="Изображение отеля Villas at Poco Diablo">
+            <img class="hotel__image" width="135px" height="90px" src="img/hotel-3.jpg" alt="Изображение отеля Villas at Poco Diablo">
             <div class="hotel__information">
               <h3 class="hotel__title">Villas at Poco Diablo</h3>
-              <table class="hotel__table">
-                <tr>
-                  <td class="hotel__value">Апартаменты</td>
-                  <td class="hotel__field">ОТ 2000 Р.</td>
-                </tr>
-              </table>
-              <a class="hotel__more button" href="#">Подробнее</a>
-              <a class="hotel__buy button" href="#">Забронировать</a>
-            </div>
-            <div class="hotel__rating">
-              <div class="hotel__rating rating-in-stars">
-                <span class="visually-hidden">2 звезды</span>
-                <span class="rating-in-stars__image"></span>
-                <span class="rating-in-stars__image"></span>
+              <div class="hotel__table">
+                <ul class="hotel__list">
+                  <li class="hotel__value">Апартаменты</li>
+                  <li class="hotel__field">ОТ 2000 Р.</li>
+                </ul>
               </div>
-              <a class="hotel__rating rating-in-numbers" href="#">Рейтинг: 9,2</a>
+              <a class="hotel__button button" href="#">Подробнее</a>
+              <a class="hotel__button hotel__button--buy button" href="#">Забронировать</a>
+            </div>
+            <div class="hotel__rating rating">
+              <div class="rating__in-stars rating__in-stars--two">
+                <span class="visually-hidden">2 звезды</span>
+              </div>
+              <a class="rating__in-numbers" href="#">Рейтинг: 9,2</a>
             </div>
           </li>
         </ul>

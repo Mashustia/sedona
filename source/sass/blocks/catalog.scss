@@ -1,11 +1,30 @@
 .catalog {
   width: 1200px;
-  padding-right: 72px;
-  padding-bottom: 30px;
-  padding-left: 72px;
 }
 
 .catalog_sorting {
   padding-top: 30px;
+  padding-right: 73px;
   padding-bottom: 30px;
+  padding-left: 73px;
 }
+
+.catalog__list {
+  @include for-list;
+}
+
+.catalog__item {
+  margin: 0;
+  padding: 0;
+  padding-top: 27px;
+  padding-right: 73px;
+  padding-bottom: 30px;
+  padding-left: 73px;
+  border-bottom: 1px solid #e5e5e5;
+
+  &:nth-child(1) {
+    border-top: 1px solid #e5e5e5;
+  }
+}
+
+

@@ -1,0 +1,82 @@
+.hotel {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hotel__image {
+  width: 135px;
+  height: 90px;
+  margin-top: auto;
+  margin-right: 30px;
+  margin-bottom: auto;
+}
+
+.hotel__information {
+  min-width: 258px;
+}
+
+.hotel__title {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.hotel__table {
+  display: table;
+  margin-bottom: 14px;
+}
+
+.hotel__list  {
+  display: table-row;
+}
+
+.hotel__value,
+.hotel__field {
+  display: table-cell;
+}
+
+.hotel__value {
+  width: 117px;
+}
+
+.hotel__button {
+  display: inline-block;
+  min-width: 70px;
+  padding: 3px 17px;
+  margin-right: 2px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    @include button-main-hover;
+  }
+
+  &:active {
+    @include button-main-active;
+  }
+
+  &--buy {
+    @include button-brown;
+
+    &:hover,
+    &:focus {
+      @include button-brown-hover;
+    }
+
+    &:active {
+      @include button-brown-active;
+    }
+  }
+}
+
+.hotel__rating {
+  margin-left: auto;
+  margin-top: 2px;
+}
+

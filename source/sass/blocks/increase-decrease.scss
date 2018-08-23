@@ -1,0 +1,35 @@
+.increase-decrease {
+  @include for-list;
+  display: flex;
+  width: 35px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.increase-decrease__link {
+  display: block;
+  width: 11px;
+  height: 10px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  &--increase {
+    background-image: url("../../img/icon-increase.svg");
+  }
+
+  &--decrease {
+    background-image: url("../../img/icon-decrease.svg");
+    transform: rotate(180deg);
+  }
+}
+
+.increase-decrease__item--active .increase-decrease__link {
+  &--increase {
+    background-image: url("../../img/icon-increase-active.svg");
+  }
+
+  &--decrease {
+    background-image: url("../../img/icon-decrease-active.svg");
+    transform: rotate(180deg);
+  }
+}

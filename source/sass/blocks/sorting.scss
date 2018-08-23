@@ -17,12 +17,6 @@
   margin-right: 40px;
 }
 
-.sorting__list {
-  @include for-list;
-  display: flex;
-
-  &--by-category {
-    min-width: 240px;
-    justify-content: space-between;
-  }
+.sorting__increase-decrease {
+  margin-left: auto;
 }

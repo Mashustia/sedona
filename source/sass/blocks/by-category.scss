@@ -1,0 +1,41 @@
+.by-category {
+  @include for-list;
+  display: flex;
+  min-width: 240px;
+  justify-content: space-between;
+}
+
+.by-category_link {
+  display: block;
+  color: $link-gray;
+  font: inherit;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    border-bottom: 1px dotted $light-blue;
+  }
+
+  &:hover,
+  &:focus {
+    color: $light-blue;
+  }
+
+  &:active {
+    color: inherit;
+    &::after {
+      border-bottom: none;
+    }
+  }
+}
+
+.by-category__item--active .by-category_link {
+  color: $light-blue;
+  &::after {
+    border-bottom: none;
+  }
+}

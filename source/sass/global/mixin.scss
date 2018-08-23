@@ -3,3 +3,25 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin button-main-hover {
+  background-color: $light-blue-hover;
+}
+
+@mixin button-main-active {
+  background-color: $light-blue-active;
+  color: #94b9d2;
+}
+
+@mixin button-brown {
+  background-color: $brown;
+}
+
+@mixin button-brown-hover {
+  background-color: $brown-hover;
+}
+
+@mixin button-brown-active {
+  background-color: $brown-active;
+  color: #928a85;
+}
