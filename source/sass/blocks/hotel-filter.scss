@@ -36,6 +36,7 @@
   padding: 6px 35px;
 
   &:hover,
+  &:focus,
   &:active {
     color: $main-text-color;
     background-color: $main-background-color;

@@ -27,12 +27,21 @@
   width: 445px;
 }
 
-.button--search {
+.hotel-search__button {
   width: 568px;
   padding: 0;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 21px;
   line-height: 26px;
-  background-color: #766357;
+  @include button-brown;
+
+  &:hover,
+  &:focus {
+    @include button-brown-hover;
+  }
+
+  &:active {
+    @include button-brown-active;
+  }
 }

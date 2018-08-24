@@ -24,6 +24,20 @@
   padding: 0;
 }
 
+.hotel__link {
+  color: inherit;
+  font: inherit;
+
+  &:hover,
+  &:focus {
+    color: $light-blue;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
 .hotel__table {
   display: table;
   margin-bottom: 14px;

@@ -14,7 +14,15 @@
   display: block;
   width: 115px;
   height: 41px;
-  background-image: url(../../img/copyright-image.png);
+  background-image: url(../../img/copyright-image.svg);
   background-repeat: no-repeat;
   background-position: center center;
+
+  &:hover,
+  &:focus {
+    background-image: url(../../img/copyright-image-blue.svg);
+  }
+  &:active {
+    background-image: url(../../img/copyright-image-gray.svg);
+  }
 }

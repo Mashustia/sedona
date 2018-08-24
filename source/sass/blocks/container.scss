@@ -1,6 +1,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  display: block;
   background-color: $main-background-color;
   box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
 }

@@ -14,32 +14,36 @@
   width: 46px;
   height: 48px;
   background-color: $light-blue;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   &:hover,
   &:focus {
-    background-color: $light-blue-hover;
+    @include button-main-hover;
   }
 
   &:active {
-    opacity: 0.3;
-    background-color: $light-blue-active;
+    @include button-main-active;
   }
 
   &--twitter {
-    background-image: url("../../img/socials-twitter.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("../../img/socials-twitter.svg");
+    &:active {
+      background-image: url("../../img/socials-twitter-dark.svg");
+    }
   }
 
   &--facebook {
-    background-image: url("../../img/socials-facebook.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("../../img/socials-facebook.svg");
+    &:active {
+      background-image: url("../../img/socials-facebook-dark.svg");
+    }
   }
 
   &--youtube {
-    background-image: url("../../img/socials-youtube.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("../../img/socials-youtube.svg");
+    &:active {
+      background-image: url("../../img/socials-youtube-dark.svg");
+    }
   }
 }

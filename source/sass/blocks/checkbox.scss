@@ -18,6 +18,12 @@
   }
 }
 
+.checkbox_input:disabled ~ .checkbox_label {
+    &::before {
+    opacity: 0.2;
+  }
+}
+
 .checkbox_input:checked + .checkbox_label {
   &::after {
     content: "";
@@ -30,4 +36,15 @@
     background-repeat: no-repeat;
     background-position: 0 0;
   }
+}
+
+.checkbox_input:checked:disabled + .checkbox_label {
+  &::after {
+    opacity: 0.2;
+  }
+}
+
+.checkbox_input:focus ~ .checkbox_label {
+  outline: auto 2px Highlight;
+  outline: -webkit-focus-ring-color auto 5px;
 }

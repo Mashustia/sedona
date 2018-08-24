@@ -12,13 +12,31 @@
   height: 10px;
   background-position: 0 0;
   background-repeat: no-repeat;
+}
 
-  &--increase {
-    background-image: url("../../img/icon-increase.svg");
+.increase-decrease__link--increase {
+  background-image: url("../../img/icon-increase.svg");
+
+  &:hover,
+  &:focus {
+    background-image: url("../../img/icon-increase-hover.svg");
   }
+  &:active {
+    background-image: url("../../img/icon-increase-active.svg");
+  }
+}
 
-  &--decrease {
-    background-image: url("../../img/icon-decrease.svg");
+.increase-decrease__link--decrease {
+  background-image: url("../../img/icon-decrease.svg");
+  transform: rotate(180deg);
+
+  &:hover,
+  &:focus {
+    background-image: url("../../img/icon-decrease-hover.svg");
+    transform: rotate(180deg);
+  }
+  &:active {
+    background-image: url("../../img/icon-decrease-active.svg");
     transform: rotate(180deg);
   }
 }
