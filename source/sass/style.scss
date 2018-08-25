@@ -20,8 +20,6 @@
 @import "blocks/hashtag.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
-@import "blocks/modal.scss";
-@import "blocks/modal-search";
 
 // catalog.html
 @import "blocks/hotel-filter.scss";
@@ -36,3 +34,8 @@
 @import "blocks/sorting.scss";
 @import "blocks/hotel.scss";
 @import "blocks/rating.scss";
+
+// modal
+@import "blocks/modal.scss";
+@import "blocks/modal-search.scss";
+@import "blocks/field.scss";

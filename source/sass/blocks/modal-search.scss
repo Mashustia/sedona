@@ -1,6 +1,10 @@
 .modal-search {
   width: 568px;
   padding: 55px;
+  position: absolute;
+  bottom: 198px;
+  left: 50%;
+  margin-left: -284px;
 }
 
 .modal-search__form {
@@ -9,4 +13,18 @@
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.modal-search__fields {
+  margin-bottom: 29px;
+}
+
+.modal-search__button {
+  width: 100%;
+  font-size: 21px;
+  line-height: 26px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 26px;
+  cursor: pointer;
 }
