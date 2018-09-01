@@ -1,16 +1,18 @@
 .sorting {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
+
   font-size: 12px;
   line-height: 18px;
-  align-items: baseline;
 }
 
 .sorting__search-result {
+  margin-right: 48px;
+
+  font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 700;
-  margin-right: 48px;
 }
 
 .sorting__text {

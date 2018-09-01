@@ -1,21 +1,25 @@
 .greeting-block {
+  position: relative;
+
   width: 1200px;
   height: 508px;
+
   background-color: #406581;
   background-image: url("../../img/greeting-background-image.jpg");
   background-repeat: no-repeat;
   background-position: 50% 28%;
   background-size: cover;
-  position: relative;
 
 
   &::after {
     content: "";
     position: absolute;
-    height: 57px;
+    right: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+
+    height: 57px;
+
     background-image: url("../../img/greeting-image-border.png");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -26,10 +30,11 @@
   position: absolute;
   top: 76px;
   left: 50%;
-  margin-left: -229px;
+
+  display: block;
   width: 458px;
   height: 352px;
-  display: block;
+  margin-left: -229px;
 }
 
 

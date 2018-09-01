@@ -1,17 +1,20 @@
 .increase-decrease {
-  @include for-list;
   display: flex;
-  width: 35px;
   justify-content: space-between;
+  width: 35px;
+
   cursor: pointer;
+
+  @include for-list;
 }
 
 .increase-decrease__link {
   display: block;
   width: 11px;
   height: 10px;
-  background-position: 0 0;
+
   background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .increase-decrease__link--increase {

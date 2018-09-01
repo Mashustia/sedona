@@ -1,16 +1,18 @@
 .options {
   min-width: 170px;
-  border: none;
   padding: 0;
+
+  border: none;
 }
 
 .options__title {
-  padding: 0;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 700;
   margin: 0;
   margin-bottom: 25px;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .options__list {

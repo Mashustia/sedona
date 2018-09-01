@@ -1,21 +1,20 @@
-.social {
-  width: 150px;
-}
-
 .social__list {
-  @include for-list;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+
+  @include for-list;
 }
 
 .social__link {
   display: block;
   width: 46px;
   height: 48px;
+
   background-color: $light-blue;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
 
   &:hover,
   &:focus {

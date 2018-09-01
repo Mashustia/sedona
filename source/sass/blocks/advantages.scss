@@ -3,31 +3,33 @@
 }
 
 .advantages__text {
-  padding-top: 60px;
-  padding-right: 350px;
-  padding-bottom: 50px;
-  padding-left: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 60px;
+  padding-right: 350px;
+  padding-bottom: 50px;
+  padding-left: 350px;
 }
 
 .advantages__slogan {
+  width: 450px;
+  margin: 0;
+  margin-bottom: 28px;
+
+  font-weight: 700;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 700;
-  margin: 0;
-  width: 450px;
   text-align: center;
-  margin-bottom: 28px;
 }
 
 .advantages__reasons {
+  width: 500px;
+  margin: 0;
+
   font-size: 14px;
   line-height: 26px;
-  margin: 0;
-  width: 500px;
   text-align: center;
 }
 
@@ -39,41 +41,45 @@
 
 .advantages__wrapper {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .advantages__item {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   width: 400px;
   padding-top: 47px;
   padding-right: 46px;
   padding-bottom: 38px;
   padding-left: 46px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
   text-align: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
 
   &--blue {
-    background-color: $light-blue;
     color: #ffffff;
+
+    background-color: $light-blue;
   }
 
   &--gray {
-    background-color: #eeeeee;
     color: $main-text-color;
+
+    background-color: #eeeeee;
   }
 }
 
 .advantages__title {
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 700;
   margin: 0;
   margin-bottom: 24px;
   padding: 0 70px;
+
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
 }
 
 .advantages__number {
@@ -81,9 +87,9 @@
 }
 
 .advantages__description {
-  padding: 0;
   margin: 0;
   margin-bottom: 21px;
+  padding: 0;
 
   &--narrow {
     padding-right: 25px;
@@ -94,6 +100,7 @@
 .advantages__image {
   width: 800px;
   height: 256px;
+
   background-color: #b38980;
 
   &--first-place {

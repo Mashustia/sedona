@@ -1,9 +1,10 @@
 .field {
-  width: 100%;
+  position: relative;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  width: 100%;
 
   &--adults {
     width: 226px;
@@ -20,15 +21,17 @@
 }
 
 .field__input {
-  background-color: #f2f2f2;
-  border: 1px solid transparent;
   padding: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+
   font: inherit;
-  color: inherit;
   line-height: 26px;
+  color: inherit;
   text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
   outline: none;
 
   &--date {
@@ -41,6 +44,7 @@
     width: 38px;
     padding-right: 5px;
     padding-left: 5px;
+
     text-align: center;
   }
 
@@ -48,19 +52,21 @@
     background-color: #ebebeb;
   }
 
-  &:focus  {
+  &:focus {
     background-color: $main-background-color;
     border: 1px solid #e5e5e5;
   }
 }
 
 .field__calendar {
-  background-color: transparent;
   position: absolute;
-  right: 3px;
   top: 7px;
-  fill: #cacaca;
+  right: 3px;
+
+  background-color: transparent;
   outline: none;
+
+  fill: #cacaca;
   &:hover,
   &:focus {
     fill: #000000;
@@ -75,12 +81,14 @@
 }
 
 .field__button {
+  position: relative;
+
   width: 38px;
   height: 38px;
-  position: relative;
-  cursor: pointer;
+
   background-color: #f2f2f2;
   outline: none;
+  cursor: pointer;
 }
 
 .field__button--minus {
@@ -98,13 +106,15 @@
 
 
   &::before {
-    position: absolute;
     content: "";
-    width: 12px;
-    height: 3px;
-    background-color: #a9a9a9;
+    position: absolute;
     top: 50%;
     left: 50%;
+
+    width: 12px;
+    height: 3px;
+
+    background-color: #a9a9a9;
     transform: translate(-50%, -50%);
   }
 }
@@ -126,23 +136,27 @@
 
 
   &::before {
-    position: absolute;
     content: "";
-    width: 12px;
-    height: 3px;
-    background-color: #a9a9a9;
+    position: absolute;
     top: 50%;
     left: 50%;
+
+    width: 12px;
+    height: 3px;
+
+    background-color: #a9a9a9;
     transform: translate(-50%, -50%);
   }
   &::after {
-    position: absolute;
     content: "";
-    width: 3px;
-    height: 12px;
-    background-color: #a9a9a9;
+    position: absolute;
     top: 50%;
     left: 50%;
+
+    width: 3px;
+    height: 12px;
+
+    background-color: #a9a9a9;
     transform: translate(-50%, -50%);
   }
 }

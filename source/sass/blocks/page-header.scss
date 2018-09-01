@@ -1,14 +1,17 @@
 .page-header {
-  width: 1200px;
-  padding-left: 73px;
-  padding-right: 73px;
   position: relative;
+
+  width: 1200px;
+  padding-right: 73px;
+  padding-left: 73px;
+
   background-color: $main-background-color;
 }
 
 .page-header__logo {
   position: absolute;
-  left: 50%;
-  margin-left: -69px;
   top: 0;
+  left: 50%;
+
+  margin-left: -69px;
 }

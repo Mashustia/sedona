@@ -1,12 +1,13 @@
 .copyright {
-  width: 195px;
-  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 195px;
+
+  text-align: left;
 }
 
-.copyright__text{
+.copyright__text {
   line-height: 26px;
 }
 
@@ -14,6 +15,7 @@
   display: block;
   width: 115px;
   height: 41px;
+
   background-image: url(../../img/copyright-image.svg);
   background-repeat: no-repeat;
   background-position: center center;

@@ -1,14 +1,16 @@
 .hotel-filter {
   width: 1200px;
-  background-color: #5f5656;
-  background-image: url("../../img/hotel-filter.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   padding-top: 27px;
   padding-right: 72px;
   padding-bottom: 31px;
   padding-left: 72px;
+
   color: #ffffff;
+
+  background-color: #5f5656;
+  background-image: url("../../img/hotel-filter.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .hotel-filter__form {
@@ -28,17 +30,20 @@
 
 .hotel-filter__button {
   margin: 0 auto;
+  padding: 6px 35px;
+
   font-weight: 400;
+
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
-  padding: 6px 35px;
 
   &:hover,
   &:focus,
   &:active {
     color: $main-text-color;
+
     background-color: $main-background-color;
   }
 }

@@ -1,7 +1,10 @@
 .checkbox_label {
   position: relative;
+
   display: block;
+
   cursor: pointer;
+
   user-select: none;
 }
 
@@ -9,17 +12,19 @@
   &::before {
     content: "";
     position: absolute;
+    top: -2px;
+    left: -40px;
+
     width: 23px;
     height: 23px;
+
     border: 2px solid #ffffff;
     border-radius: 3px;
-    left: -40px;
-    top: -2px;
   }
 }
 
 .checkbox_input:disabled ~ .checkbox_label {
-    &::before {
+  &::before {
     opacity: 0.2;
   }
 }
@@ -28,10 +33,12 @@
   &::after {
     content: "";
     position: absolute;
+    top: -2px;
+    left: -40px;
+
     width: 27px;
     height: 23px;
-    left: -40px;
-    top: -2px;
+
     background-image: url("../../img/checkbox-on.svg");
     background-repeat: no-repeat;
     background-position: 0 0;

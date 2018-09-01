@@ -1,15 +1,18 @@
 .by-category {
-  @include for-list;
   display: flex;
-  min-width: 240px;
   justify-content: space-between;
+  min-width: 240px;
+
+  @include for-list;
 }
 
 .by-category_link {
-  display: block;
-  color: $link-gray;
-  font: inherit;
   position: relative;
+
+  display: block;
+
+  font: inherit;
+  color: $link-gray;
 
   &::after {
     content: "";
@@ -17,6 +20,7 @@
     right: 0;
     bottom: 1px;
     left: 0;
+
     border-bottom: 1px dotted $light-blue;
   }
 

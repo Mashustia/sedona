@@ -1,18 +1,22 @@
 .modal-search {
-  width: 568px;
-  padding: 55px;
   position: absolute;
   bottom: 198px;
   left: 50%;
+
+  width: 568px;
   margin-left: -284px;
+  padding: 55px;
+
+  box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
 
 .modal-search__form {
   display: flex;
   flex-wrap: wrap;
+
+  font-weight: 700;
   font-size: 14px;
   line-height: 26px;
-  font-weight: 700;
 }
 
 .modal-search__fields {
@@ -21,10 +25,21 @@
 
 .modal-search__button {
   width: 100%;
-  font-size: 21px;
-  line-height: 26px;
+  margin-top: 26px;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-top: 26px;
+
+  font-size: 21px;
+  line-height: 26px;
+
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    @include button-main-hover;
+  }
+
+  &:active {
+    @include button-main-active;
+  }
 }
